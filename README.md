@@ -1,5 +1,5 @@
 # Virus Attack
-Virus attack is a game where the player controls a virus which must survive in a host body protected by its own defense mechanisms. The aim is to set the highest score before getting killed by the defense which gets even stronger as the time goes on. There are different enemies with different behaviors that await you!
+“Virus Attack” is a game we have decided to develop as a project for CS 319 course. There is a virus that tries to get into human body, and player controls the virus’ motions. The main purpose of this game is to avoid colliding with the host body’s immune system by moving and dodging appropriately, and to be alive as much as you can in the host body. The game we took as an inspiration is the indie game called “Wave 2” made by the YouTube channel RealTutsGML.
 
 # Members
 * Cholpon Mambetova
