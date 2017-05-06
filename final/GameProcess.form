@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="GameProcess">
+  <grid id="27dc6" binding="gameProcessPanel" layout-manager="GridLayoutManager" row-count="4" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="1090" height="913"/>
+    </constraints>
+    <properties>
+      <background color="-6316129"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="a513" binding="middlePanel" layout-manager="GridLayoutManager" row-count="1" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="232" height="267"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-6316129"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="3c48" binding="processPanel" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <minimum-size width="810" height="560"/>
+                <preferred-size width="810" height="560"/>
+                <maximum-size width="810" height="560"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-5482398"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="2f526" class="GameEngine" binding="game">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-16777216"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="7cda2" binding="headerPanel" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="true">
+            <preferred-size width="70" height="48"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-6316129"/>
+          <foreground color="-1"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="5973a" class="javax.swing.JLabel" binding="virusLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="66" height="64"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Castellar" size="20"/>
+              <foreground color="-1"/>
+              <text value="Virus Attack"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="e2562" binding="buttonPanel" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="2" fill="1" indent="0" use-parent-layout="true"/>
+        </constraints>
+        <properties>
+          <background color="-6316129"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="56d95" class="javax.swing.JButton" binding="pauseGameButton" default-binding="true">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-6316129"/>
+              <text value="Pause Game"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="acd48" binding="footerPanel" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="-1" height="20"/>
+            <preferred-size width="-1" height="40"/>
+            <maximum-size width="-1" height="20"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-6316129"/>
+        </properties>
+        <border type="none"/>
+        <children/>
+      </grid>
+    </children>
+  </grid>
+</form>

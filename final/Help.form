@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Help">
+  <grid id="27dc6" binding="helpPanel" layout-manager="GridLayoutManager" row-count="5" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="3231" height="620"/>
+    </constraints>
+    <properties>
+      <background color="-6316129"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="f656e" class="javax.swing.JLabel" binding="helpTitle">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-6316129"/>
+          <enabled value="true"/>
+          <font size="48"/>
+          <foreground color="-1"/>
+          <text value="Help"/>
+        </properties>
+      </component>
+      <grid id="1d943" binding="helpContentPanel" layout-manager="GridLayoutManager" row-count="4" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-6316129"/>
+          <font size="20"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="3b44f" class="javax.swing.JLabel" binding="helpContent">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-2697514"/>
+              <font size="22"/>
+              <foreground color="-1"/>
+              <horizontalAlignment value="0"/>
+              <horizontalTextPosition value="0"/>
+              <text value="&lt;html&gt;press W-A-S-D to move the virus&lt;br&gt;press arrow keys to move the virus&lt;br&gt;press M for sound on/off&lt;br&gt;press P to pause/continue the game&lt;br&gt;press ESC to quit in main menu&lt;br&gt;press ESC to go back in menu&lt;br&gt;press ESC to pause in the game screen&lt;/html&gt;"/>
+            </properties>
+          </component>
+          <component id="e59e7" class="javax.swing.JLabel" binding="description">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="22"/>
+              <foreground color="-1"/>
+              <horizontalAlignment value="0"/>
+              <horizontalTextPosition value="0"/>
+              <text value="&lt;html&gt;The Virus Attack is a game in which player is a virus that tries to get into human body,&lt;br&gt;and player controls the virus’ motions. &lt;br&gt;The main purpose of this game is to avoid colliding with the host body’s immune system &lt;br&gt;by moving and dodging appropriately, &lt;br&gt;and to be alive as much as you can in the host body.&lt;/html&gt;"/>
+            </properties>
+          </component>
+          <component id="d2492" class="javax.swing.JLabel" binding="howToPlayTitle">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="24" style="1"/>
+              <foreground color="-1"/>
+              <text value="How To Play"/>
+            </properties>
+          </component>
+          <component id="15624" class="javax.swing.JLabel" binding="descriptionTitle">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="24" style="1"/>
+              <foreground color="-1"/>
+              <text value="Description"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="be121" binding="headerPanel" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-6316129"/>
+        </properties>
+        <border type="none"/>
+        <children/>
+      </grid>
+      <grid id="5251c" binding="footerPanel" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-6316129"/>
+        </properties>
+        <border type="none"/>
+        <children/>
+      </grid>
+      <component id="a7f6b" class="javax.swing.JButton" binding="backMainMenuButton">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-6316129"/>
+          <borderPainted value="false"/>
+          <focusPainted value="false"/>
+          <font size="18" style="1"/>
+          <text value="Back to Main Menu"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
